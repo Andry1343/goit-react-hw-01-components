@@ -1,0 +1,23 @@
+table {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+th {
+  height: 45px;
+  background-color: #00bcd5;
+}
+.transactionHistory {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+tbody:nth-child(2n + 2) {
+  background-color: #ecf1f4;
+}
+
+tbody {
+  background-color: white;
+}

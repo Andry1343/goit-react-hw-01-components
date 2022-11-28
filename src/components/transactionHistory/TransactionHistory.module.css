@@ -21,3 +21,9 @@ tbody:nth-child(2n + 2) {
 tbody {
   background-color: white;
 }
+
+.type,
+.amount,
+.currency {
+  color: white;
+}

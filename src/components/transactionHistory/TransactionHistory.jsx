@@ -6,9 +6,9 @@ export const Transactions = ({ items }) => {
     <table className={styles.transactionHistory}>
       <thead>
         <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+          <th className={styles.type}>Type</th>
+          <th className={styles.amount}>Amount</th>
+          <th className={styles.currency}>Currency</th>
         </tr>
       </thead>
       {items.map(items => (
